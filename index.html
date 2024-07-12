@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Patterns</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .pattern-card {
+            background: white;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .pattern-card h2 {
+            margin: 0;
+            color: #333;
+        }
+        .pattern-card p {
+            margin: 10px 0;
+        }
+        .pattern-card a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .pattern-card a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>  
+</head>
+<body>
+    <header>
+        LeetCode Patterns
+    </header>
+    <main>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/5119937/Prefix-Sum-Problems">
+            <h2>Pattern 0: Prefix Sum</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/problem-list/504wrexe/">
+            <h2>Pattern 1: Hashing</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+          <a href="https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days">
+              <h2>Pattern 2: Two Pointers</h2>
+          </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/interview-question/3722472/mastering-sliding-window-technique-a-comprehensive-guide">
+            <h2>Pattern 3: Sliding Window</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems">
+            <h2>Pattern 4: Binary Search</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/2703748/Monotonic-stack-study-summary">
+            <h2>Pattern 5: Stack</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/2725900/Linked-list-study-guide">
+            <h2>Pattern 6: Linked List</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/1212004/Binary-Trees-study-guide">
+            <h2>Pattern 7: Trees</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/general-discussion/1127238/master-heap-by-solving-23-questions-in-4-patterns-category">
+            <h2>Pattern 8: Priority Queue</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/2757875/backtracking-study-guide">
+            <h2>Pattern 9: BackTracking</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/general-discussion/931977/beginner-friendly-guide-to-trie-tutorial-practice-problems">
+            <h2>Pattern 10: Tries</h2>
+        </a>  
+      </div>
+      
+      <div class="pattern-card">
+        <h2>Pattern 11: Graphs</h2>
+        <div class="sub-patterns">
+            <div class="sub-pattern">
+                <a href="https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS">Sub-Pattern 1: DFS</a>
+            </div>
+            <div class="sub-pattern">
+                <a href="https://leetcode.com/discuss/study-guide/1833581/bfs-and-its-variations">Sub-Pattern 2: BFS</a>
+            </div>
+            <div class="sub-pattern">
+              <a href="https://leetcode.com/discuss/general-discussion/1078072/introduction-to-topological-sort">Sub-Pattern 3: Topological Sort</a>
+            </div>
+            <div class="sub-pattern">
+              <a href="https://leetcode.com/discuss/general-discussion/1072418/Disjoint-Set-Union-(DSU)Union-Find-A-Complete-Guide">Sub-Pattern 4: DSU</a>
+            </div>
+            <div class="sub-pattern">
+              <a href="https://leetcode.com/problem-list/m6w6qm55/">Sub-Pattern 5: Dijsktra</a>
+            </div>
+            <div class="sub-pattern">
+              <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph">Sub-Pattern 6: BellmanFord and flyod</a>
+            </div>
+            <div class="sub-pattern">
+              <a href="https://leetcode.com/discuss/study-guide/1131969/Minimum-Spanning-Tree-beginner's-guide#:~:text=Minimum%20Spanning%20Tree%20(MST)%20is,trees%20but%20only%20one%20MST.">Sub-Pattern 7: MST</a>
+            </div>
+            <div class="sub-pattern">
+              <a href="https://leetcode.com/discuss/general-discussion/709997/questions-based-on-articulation-points-and-bridges">Sub-Pattern 7: Bridges and Articulation Points</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months">
+            <h2>Pattern 12: DP</h2>
+        </a>  
+      </div> 
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/general-discussion/669996/greedy-for-beginners-problems-sample-solutions">
+            <h2>Pattern 13: Greedy</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/general-discussion/990277/complete-list-of-all-interval-related-questions">
+            <h2>Pattern 14: Intervals</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/tag/geometry/">
+            <h2>Pattern 15: Geometry</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/interview-question/3695233/all-types-of-patterns-for-bits-manipulations-and-how-to-use-it">
+            <h2>Pattern 16: Bit Manipulation</h2>
+        </a>  
+      </div> 
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms">
+            <h2>Pattern 17: Line Sweep</h2>
+        </a>  
+      </div>
+      <div class="pattern-card">
+        <a href="https://leetcode.com/discuss/study-guide/1569634/binary-index-tree-template-and-problem-solving">
+            <h2>Pattern 17: Segment/Fenwick Trees</h2>
+        </a>  
+      </div>          
+      
+      
+    </main>
+    <footer>
+        &copy; 2024 by NK
+    </footer>
+</body>
+</html>
